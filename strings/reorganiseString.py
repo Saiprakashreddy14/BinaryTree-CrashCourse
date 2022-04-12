@@ -6,4 +6,4 @@ def reorganizeString(s):
         return ""
     return "".join(a)
 
-print(reorganizeString("aabababababcccccccccccccccc"))
+print(reorganizeString("aabababababccccccc"))

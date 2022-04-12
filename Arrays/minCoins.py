@@ -13,10 +13,10 @@ class Solution :
         
         best = float('inf')
         for i in coins :
-            best = min(best , 1 + self.minCoins(coins,target-i)+1,dic)
+            best = min(best , 1+ self.minCoins(coins,target-i,dic))
         dic[target] = best
          
         return best
 
 
-print(Solution().minCoins([9,6,5,1],11,{}))
+print(Solution().minCoins([9,6,5,1],21,{}))
